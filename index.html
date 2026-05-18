@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Namma HomeStay</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="module" src="script.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <img src="logo.png" class="logo">
+
+    <h1 class="main-title">
+      Namma HomeStay
+    </h1>
+
+    <!-- LOGIN SECTION -->
+
+    <div class="card">
+
+      <h2>Login</h2>
+
+      <input type="email" id="email" placeholder="Enter Email">
+
+      <input type="password" id="password" placeholder="Enter Password">
+
+      <button id="loginBtn">
+        Login
+      </button>
+
+    </div>
+
+    <!-- DASHBOARD -->
+
+    <div class="card">
+
+      <h2>Dashboard</h2>
+
+      <button>
+        My Home Profile
+      </button>
+
+      <button>
+        Daily Menu
+      </button>
+
+      <button>
+        Inquiry Box
+      </button>
+
+      <button>
+        Local Guide
+      </button>
+
+    </div>
+
+    <!-- DAILY MENU -->
+
+    <div class="card">
+
+      <h2>Daily Menu</h2>
+
+      <input type="text" id="dish" placeholder="Dish Name">
+
+      <input type="text" id="price" placeholder="Dish Price">
+
+      <button id="generateBtn">
+        Generate AI Description
+      </button>
+
+      <p id="result"></p>
+
+      <button id="saveBtn">
+        Save Menu
+      </button>
+
+    </div>
+
+    <!-- INQUIRY BOX -->
+
+    <!-- INQUIRY BOX -->
+
+    <div class="card">
+
+      <h2>Inquiry Box</h2>
+
+      <input type="text" id="customerName" placeholder="Your Name">
+
+      <textarea id="customerMessage" placeholder="Enter your inquiry" rows="4"></textarea>
+
+      <button id="sendInquiryBtn">
+        Send Inquiry
+      </button>
+
+      <div id="inquiryList"></div>
+
+    </div>
+
+    <!-- LOCAL GUIDE -->
+
+    <div class="card">
+
+      <h2>🌍 Local Guide</h2>
+
+      <input type="text" id="placeName" placeholder="Place Name">
+
+      <textarea id="placeDescription" placeholder="Place Description" rows="4"></textarea>
+
+      <button id="addPlaceBtn">
+        Add Place
+      </button>
+
+      <div id="placesList"></div>
+
+    </div>
+
+  </div>
+  <div class="footer">
+
+    Developed using Firebase & Gemini AI
+
+  </div>
+</body>
+
+</html>
